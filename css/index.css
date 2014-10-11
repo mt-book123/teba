@@ -1,0 +1,121 @@
+@charset "utf8";
+
+/*  contents
+------------------------ */
+
+#contents {
+	width: 980px;
+	margin: 0 auto;
+}
+
+/*  mainArea
+------------------------ */
+
+#contents #mainArea {
+	width: 450px;
+	float: left;
+}
+#contents #mainArea h1 {
+	font-size: 32px;
+	/*font-weight: bold;*/
+	background: url(/images/index/bg_title_line.png) no-repeat 0 5px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+/* infoArea */
+#contents #mainArea #infoArea {
+	width: 100%;
+	overflow: hidden;
+}
+#contents #mainArea #infoArea li {
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 40px;
+}
+#contents #mainArea #infoArea a {
+	text-decoration: none;
+}
+#contents #mainArea #infoArea span {
+	display: block;
+}
+
+/* infoArea - dataArea */
+#contents #mainArea #infoArea .dateArea {
+	width: 76px;
+	height: 76px;
+	float: left;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	padding-right: 20px;
+	background: url(/images/index/bg_news_date.png) no-repeat 0 0;
+}
+#contents #mainArea #infoArea .month {
+	font-size: 22px;
+	font-weight: bold;
+	color: #fff;
+	padding-top: 6px;
+}
+#contents #mainArea #infoArea .date {
+	font-size: 32px;
+	font-weight: bold;
+	color: #fff;
+	margin-top: -12px;
+}
+
+/* infoArea - newsTxt */
+#contents #mainArea #infoArea .newsTxt {
+	width: 354px;
+	float: left;
+}
+#contents #mainArea #infoArea .title {
+	font-size: 20px;
+	font-weight: bold;
+	color: #4978ac;
+	margin-bottom: 5px;
+}
+#contents #mainArea #infoArea .content {
+	color: #60524f;
+}
+#contents #mainArea #infoArea a .title:hover,
+#contents #mainArea #infoArea a .content:hover {
+	text-decoration: underline;
+}
+
+
+/*  subArea
+------------------------ */
+
+#contents #subArea {
+	width: 400px;
+	float: right;
+	margin-bottom: 40px;
+}
+#contents #subArea #photoArea {
+	margin-bottom: 45px;
+}
+#contents #subArea #newsArea h1 {
+	color: #60524f;
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+#contents #subArea #newsArea li {
+	margin-bottom: 13px;
+	overflow: hidden;
+}
+#contents #subArea #newsArea li span {
+	display: block;
+}
+#contents #subArea #newsArea li .date {
+	width: 120px;
+	float: left;
+}
+#contents #subArea #newsArea li .content {
+	width: 280px;
+	float: left;
+}
+
+
+
+
+
