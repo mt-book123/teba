@@ -157,3 +157,25 @@
 	float: right;
 	text-align: right;
 }
+
+
+
+@media screen and (max-width: 480px){
+  #container {
+   min-width: 100%;
+  }
+  #mainVisual {
+    width: 100%;
+  }
+  #mainVisual #logoArea {
+    width: 100%;
+    min-width: 100%;
+    text-align: center;
+  }
+  #mainVisual .visualBox {
+    display: none;
+  }
+}
+@media screen and (max-width: 320px){
+	
+}
