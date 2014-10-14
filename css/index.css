@@ -18,7 +18,7 @@
 #contents #mainArea h1 {
 	font-size: 32px;
 	/*font-weight: bold;*/
-	background: url(images/index/bg_title_line.png) no-repeat 0 5px;
+	background: url(../images/index/bg_title_line.png) no-repeat 0 5px;
 	text-align: center;
 	margin-bottom: 20px;
 }
@@ -48,7 +48,7 @@
 	font-weight: bold;
 	text-align: center;
 	padding-right: 20px;
-	background: url(images/index/bg_news_date.png) no-repeat 0 0;
+	background: url(../images/index/bg_news_date.png) no-repeat 0 0;
 }
 #contents #mainArea #infoArea .month {
 	font-size: 22px;
