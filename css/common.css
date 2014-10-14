@@ -159,6 +159,12 @@
 }
 
 
+/*  module
+=================*/
+.comingSoon {
+    padding-bottom: 250px !important;
+}
+
 
 @media screen and (max-width: 480px){
   #container {
