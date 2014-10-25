@@ -167,8 +167,12 @@
 
 
 @media screen and (max-width: 480px){
+  /* allLayout */
   #container {
    min-width: 100%;
+  }
+  #contents {
+    width: 100% !important;
   }
   #mainVisual {
     width: 100%;
@@ -177,9 +181,17 @@
     width: 100%;
     min-width: 100%;
     text-align: center;
+    padding: 25px 0;
   }
   #mainVisual .visualBox {
     display: none;
+  }
+
+  /* index.html */
+  /* mainArea */
+  #contents #mainArea {
+    width: 100% !important;
+    float: none !important;
   }
 }
 @media screen and (max-width: 320px){
